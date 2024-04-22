@@ -4,6 +4,9 @@ resource "aws_instance" "dev" {
   tags = {
     Name="new"
   }
- 
+}
+
+provider "aws" {
+  region = "ap-south-1"
 
 }
